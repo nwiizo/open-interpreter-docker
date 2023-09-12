@@ -1,6 +1,6 @@
 # [open-interpreter](https://github.com/KillianLucas/open-interpreter)-docker
 
-Docker-based environment for [open-interpreter]（https://openinterpreter.com/）.
+Docker-based environment for [open-interpreter](https://openinterpreter.com/).
 
 ## Docker Build
 no set openai api key
