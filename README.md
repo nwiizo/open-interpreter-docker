@@ -1,4 +1,4 @@
-# [open-interpreter](https://github.com/KillianLucas/open-interpreter)-docker
+# 🐳 [open-interpreter](https://github.com/KillianLucas/open-interpreter)-docker 🐳
 
 Docker-based environment for [open-interpreter](https://openinterpreter.com/).
 
