@@ -11,18 +11,19 @@ Docker-based environment for [open-interpreter](https://openinterpreter.com/).
 - :shield: Update your .dockerignore or similar configurations to ensure sensitive files are not included in future Docker images.
 
 ## Docker Build
-no set openai api key
+
 ```sh
 sudo docker build -t open-interpreter-docker .
 ```
-set build with openai api key
-```sh
-sudo docker build --build-arg OPENAI_API_KEY_ARG=sk-xxx -t open-interpreter-docker .
-```
 
 ## Docker Run
+no set openai api key
 ```sh
 docker run -it --rm -v $(pwd)/files:/root open-interpreter-docker:latest
+```
+set run with openai api key
+```
+docker run -it --rm -e OPENAI_API_KEY=<Your_API_Key> -v $(pwd)/files:/root open-interpreter-docker:latest
 ```
 
 ## App Run
