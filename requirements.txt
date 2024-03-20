@@ -1,4 +1,4 @@
-open-interpreter==0.2.0
+open-interpreter==0.2.3
 numpy
 matplotlib
 pandas
