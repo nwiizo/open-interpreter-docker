@@ -1,5 +1,5 @@
 # Use a lighter base image
-FROM python:3.11
+FROM python:3.13
 
 # Optimize caching and install necessary packages
 RUN apt-get update && \
